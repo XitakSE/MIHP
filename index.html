@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>石若雅弥オフィシャルウェブサイト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/slide.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="js/openclose.js"></script>
+</head>
+
+<body>
+	
+	<!--小さな端末用（480px以下端末）ブロック-->
+	<div id="sh">
+		<p id="logo"><a href="index.html"><img src="images/logo_s.png" alt="SAMPLE LOGO"></a></p>
+		<nav id="menubar-s">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="gallery.html"> GALLERY </a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--小さな端末用（480px以下端末）ブロック-->
+
+	<div id="container">
+		
+		<div id="main">
+			<div class="spa"></div>
+		</div>
+		
+		<div id="sub">
+			<p id="logo"><a href="index.html"><img src="images/logo.png" alt="LOGO"></a></p>
+			<nav id="menubar">
+				<ul>
+					<li><a href="#top">トップ</a></li>
+					<li><a href="#prof">プロフィール</a></li>
+					<li><a href="#movie">動画</a></li>
+					<div class="flex">
+						<span class="caption">下記リンクは外部サイトへ遷移します。</span>
+					</div>
+					<li>
+						<a href="http://seesaawiki.jp/studio811/d/%ba%ee%c9%ca%a5%ea%a5%b9%a5%c8">
+							作品リスト
+						</a>
+					</li>
+					<li>
+						<a href="http://seesaawiki.jp/studio811/d/%bd%d0%c8%c7%a5%ea%a5%b9%a5%c8">
+							出版楽譜・CD
+						</a>
+					</li>
+				</ul>
+			</nav>
+					<div id="sns" class="box">
+						<p>最新情報はSNSをご覧ください</p>
+						<ul class="follow-me flex">
+							<li><a href="https://www.facebook.com/masaya.ishiwaka"></a></li>
+							<li><a href="https://twitter.com/studio_811"></a></li>
+							<li><a href="https://www.youtube.com/user/studio811"></a></li>
+						</ul>
+					</div>
+</div>
+<!--/sub-->
+
+</div>
+<!--/container-->
+
+
+<footer>
+	<small>&copy; 2004-2021 <a href="index.html">m-ishiwaka.com</a> All Rights Reserved.</small>
+	<span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
+</footer>
+
+<!--お知らせ欄の開閉処理条件　480px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 480) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　480px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 480) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/page_change.js"></script>
+</body>
+</html>
